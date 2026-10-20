@@ -1,0 +1,27 @@
+{
+  "name": "test-whatsapp-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhilipposVassil/WhatsApp-Cloud-API-Message-Handler"
+  },
+  "author": "Philippos Vassiliou",
+  "license": "ISC",
+  "keywords": [
+    "WhatsApp",
+    "Meta API",
+    "Cloud API",
+    "webhook"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}
